@@ -19,7 +19,7 @@
 ---
 
 <p align="center"> 
-    <br> 로봇 로그를 분석하기 위해 만들어졌습니다.
+    <br> 특정 로그를 분석하기 위해 만들어졌습니다.
 </p>
 
 ## 📝 Table of Contents
@@ -63,7 +63,11 @@ LOG_TYPE: error
      30 [application][ERROR]: [500#ERROR_GENERAL] HTTP Request Failed	
 ```
 
+1. 아래와 같은 형식의 로그에서 동작합니다.
+
+```
 [2020-08-24 05:30:10] [some_service][ERROR]: HTTP Request Failed [('ABC', '`Log Message.'), ('dolor', 'Aliquam'), ('amet,', 'sed'), ('adipiscing', 'velit'), ('Phasellus', 'sed'), ('amet', 'auctor'), ('lacus.', 'ante'), ('a', 'elementum')]
+```
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
